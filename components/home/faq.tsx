@@ -25,7 +25,7 @@ const faqs = [
 
 export function FAQ() {
   return (
-    <section className="bg-[#fffdf9] py-24">
+    <section className="bg-[#fffdf9] py-16 md:py-20 lg:py-20">
       <div className="mx-auto max-w-4xl px-5 lg:px-8">
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#9a6b52]">
@@ -37,7 +37,7 @@ export function FAQ() {
           </h2>
         </div>
 
-        <div className="mt-10">
+        <div className="mt-8">
           {faqs.map((faq) => (
             <AccordionItem
               key={faq.question}

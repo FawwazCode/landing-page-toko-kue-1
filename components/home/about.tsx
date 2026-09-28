@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export function About() {
   return (
-    <section id="about" className="bg-[#f7f1eb] py-24">
-      <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-2 lg:items-center lg:px-8">
-        <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem]">
+    <section id="about" className="bg-[#f7f1eb] py-16 md:py-20 lg:py-20">
+      <div className="mx-auto grid max-w-7xl gap-x-12 gap-y-8 px-5 lg:grid-cols-2 lg:items-center lg:px-8">
+        <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] sm:aspect-[16/10] lg:aspect-[5/4]">
           <Image
             src="/images/gallery/gallery-01.jpeg"
             alt="cake shop"

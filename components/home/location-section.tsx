@@ -18,9 +18,9 @@ const googleMapsUrl =
 
 export function LocationSection() {
   return (
-    <section id="location"className="border-t border-[#eadfd6] bg-[#fcf9f6] py-20 md:py-24">
+    <section id="location"className="border-t border-[#eadfd6] bg-[#fcf9f6] py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
-        <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
+        <div className="grid gap-x-10 gap-y-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
           {/* Information */}
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#9a6b52]">
@@ -36,7 +36,7 @@ export function LocationSection() {
               carefully made for everyday treats and special moments.
             </p>
 
-            <div className="mt-8 space-y-5">
+            <div className="mt-6 space-y-4">
               {/* Address */}
               <div className="flex gap-4">
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#efe3da] text-[#9a6b52]">
@@ -83,7 +83,7 @@ export function LocationSection() {
               href={googleMapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#3c2921] px-6 py-3 text-sm font-medium text-white transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-[1.02] hover:bg-[#241914] hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-2"
+              className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#3c2921] px-6 py-3 text-sm font-medium text-white transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-[1.02] hover:bg-[#241914] hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-2"
             >
               <Navigation size={17} strokeWidth={1.8} />
               Get Directions

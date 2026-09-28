@@ -16,7 +16,7 @@ export function BestSellers() {
         );
 
   return (
-    <section id="menu" className="bg-[#fffdf9] py-24">
+    <section id="menu" className="bg-[#fffdf9] py-16 md:py-20 lg:py-20">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <div>
@@ -35,7 +35,7 @@ export function BestSellers() {
           />
         </div>
 
-        <div className="mt-12">
+        <div className="mt-8 md:mt-10">
           <ProductGrid products={filteredProducts} />
         </div>
       </div>

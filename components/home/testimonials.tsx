@@ -2,7 +2,7 @@ import { testimonials } from "@/data/testimonials";
 
 export function Testimonials() {
   return (
-    <section className="bg-[#f7f1eb] py-24">
+    <section className="bg-[#f7f1eb] py-16 md:py-20 lg:py-20">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="max-w-xl">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#9a6b52]">
@@ -14,7 +14,7 @@ export function Testimonials() {
           </h2>
         </div>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
+        <div className="mt-10 grid gap-6 md:grid-cols-3">
           {testimonials.map((testimonial) => (
             <article
               key={testimonial.name}

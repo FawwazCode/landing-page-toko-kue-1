@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export function CTA() {
   return (
-    <section className="bg-[#6f4938] py-24 text-white">
+    <section className="bg-[#6f4938] py-16 md:py-20 lg:py-20 text-white">
       <div className="mx-auto max-w-4xl px-5 text-center lg:px-8">
         <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#e9cdb8]">
           A little something to share

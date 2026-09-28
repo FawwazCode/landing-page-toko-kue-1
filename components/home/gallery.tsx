@@ -9,7 +9,7 @@ const images = [
 
 export function Gallery() {
   return (
-    <section className="bg-[#fffdf9] py-24">
+    <section className="bg-[#fffdf9] py-16 md:py-20 lg:py-20">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#9a6b52]">
@@ -21,7 +21,7 @@ export function Gallery() {
           </h2>
         </div>
 
-        <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
+        <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4">
           {images.map((image, index) => (
             <div
               key={image}

@@ -32,7 +32,7 @@ export function DonutBoxBuilder() {
   return (
     <section
       id="cake-selection"
-      className="bg-[#f7f1eb] py-24"
+      className="bg-[#f7f1eb] py-16 md:py-20 lg:py-20"
     >
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="max-w-2xl">
@@ -50,8 +50,8 @@ export function DonutBoxBuilder() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_380px]">
-          <div className="space-y-10">
+        <div className="mt-10 grid gap-y-8 gap-x-10 lg:grid-cols-[1fr_380px] lg:gap-y-10">
+          <div className="space-y-8">
             <div>
               <div className="mb-4 flex items-center justify-between">
                 <h3 className="font-serif text-2xl font-bold text-[#30231e]">
