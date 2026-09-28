@@ -30,7 +30,7 @@ export function generateWhatsAppMessage({
     .filter(Boolean)
     .join("\n");
 
-  return `Halo Sunqiest! 👋
+  return `Halo Toko Kue! 👋
 
 Saya ingin memesan pilihan cake berikut:
 

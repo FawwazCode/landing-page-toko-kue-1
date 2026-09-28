@@ -40,8 +40,9 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative mx-auto aspect-square w-full max-w-[560px]">
-          <div className="absolute inset-8 rounded-full bg-[#e7cbb8]" />
+        {/* Hero Image */}
+        <div className="relative mx-auto aspect-square w-full max-w-[450px]">
+          <div className="absolute inset-7 rounded-full bg-[#e7cbb8]" />
 
           <div className="relative h-full w-full overflow-hidden rounded-[45%]">
             <Image
@@ -50,7 +51,7 @@ export function Hero() {
               fill
               priority
               className="object-cover"
-              sizes="(max-width: 1024px) 90vw, 560px"
+              sizes="(max-width: 1024px) 80vw, 450px"
             />
           </div>
         </div>

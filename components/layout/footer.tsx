@@ -4,7 +4,7 @@ import { MapPin } from "lucide-react";
 export function Footer() {
   const whatsappNumber = "6285939859097";
   const whatsappMessage = encodeURIComponent(
-    "Halo Sunqiest! Saya ingin memesan cake."
+    "Halo Toko Kue! Saya ingin memesan cake."
   );
 
   return (
