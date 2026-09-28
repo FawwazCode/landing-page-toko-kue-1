@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-[#f7efe7]">
-      <div className="mx-auto grid min-h-[720px] max-w-7xl items-center gap-8 px-5 pb-16 pt-28 lg:min-h-[760px] lg:grid-cols-2 lg:gap-12 lg:px-8">
-        <div className="relative z-10">
+      <div className="mx-auto grid min-h-[720px] max-w-7xl items-center gap-8 px-5 pb-16 pt-16 lg:min-h-[760px] lg:grid-cols-2 lg:gap-12 lg:px-8 lg:pb-20 lg:pt-16">
+        <div className="relative z-10 lg:-translate-y-0">
           <p className="mb-5 text-sm font-semibold uppercase tracking-[0.25em] text-[#9a6b52]">
             Freshly baked with care
           </p>
@@ -41,7 +41,7 @@ export function Hero() {
         </div>
 
         {/* Hero Image */}
-        <div className="relative mx-auto aspect-square w-full max-w-[450px]">
+        <div className="relative mx-auto aspect-square w-full max-w-[450px] lg:-translate-y-5">
           <div className="absolute inset-7 rounded-full bg-[#e7cbb8]" />
 
           <div className="relative h-full w-full overflow-hidden rounded-[45%]">
