@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 const images = [
-  "gallery-01.webp",
-  "gallery-02.webp",
-  "gallery-03.webp",
-  "gallery-04.webp",
+  "gallery-01.jpeg",
+  "gallery-02.jpeg",
+  "gallery-03.jpeg",
+  "gallery-04.jpeg",
 ];
 
 export function Gallery() {

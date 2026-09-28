@@ -7,7 +7,7 @@ export const products: Product[] = [
     name: "Chocolate Fudge Cake",
     category: "premium",
     price: 35000,
-    image: "/images/products/chocolate-fudge-cake.webp",
+    image: "/images/products/Chocolate-Fudge-Cake.jpeg",
     shortDescription: "Deep chocolate cake with a silky fudge finish.",
     description:
       "Moist chocolate layers meet a smooth, rich fudge frosting in a comforting slice made for chocolate lovers.",
@@ -20,7 +20,7 @@ export const products: Product[] = [
     name: "Strawberry Shortcake",
     category: "classic",
     price: 33000,
-    image: "/images/products/strawberry-shortcake.webp",
+    image: "/images/products/Strawberry-Shortcake.jpeg",
     shortDescription: "Light vanilla sponge, cream, and strawberries.",
     description:
       "Soft vanilla sponge layered with lightly sweetened cream and ripe strawberries for a fresh, balanced finish.",
@@ -33,7 +33,7 @@ export const products: Product[] = [
     name: "Matcha Cream Cake",
     category: "premium",
     price: 35000,
-    image: "/images/products/matcha-cream-cake.webp",
+    image: "/images/products/Matcha-Cream-Cake.jpg",
     shortDescription: "Gentle matcha flavor with soft cream layers.",
     description:
       "A tender sponge with fragrant Japanese matcha and smooth cream, finished with a delicate dusting of matcha powder.",
@@ -46,7 +46,7 @@ export const products: Product[] = [
     name: "Biscoff Cheesecake",
     category: "premium",
     price: 38000,
-    image: "/images/products/biscoff-cheesecake.webp",
+    image: "/images/products/Biscoff-Cheesecake.jpeg",
     shortDescription: "Creamy cheesecake with caramel biscuit crunch.",
     description:
       "A velvety cheesecake on a buttery biscuit base, topped with caramelized cookie spread and a little extra crunch.",
@@ -59,7 +59,7 @@ export const products: Product[] = [
     name: "Vanilla Butter Cake",
     category: "classic",
     price: 29000,
-    image: "/images/products/vanilla-butter-cake.webp",
+    image: "/images/products/Vanilla-Butter-Cake.jpeg",
     shortDescription: "A tender butter cake with a delicate vanilla aroma.",
     description:
       "A soft, buttery classic with real vanilla notes, baked for an easy afternoon treat or a simple celebration.",
@@ -71,7 +71,7 @@ export const products: Product[] = [
     name: "Tiramisu Cake",
     category: "premium",
     price: 36000,
-    image: "/images/products/tiramisu-cake.webp",
+    image: "/images/products/Tiramisu-Cake.jpeg",
     shortDescription: "Coffee-soaked sponge with mascarpone-style cream.",
     description:
       "Coffee-kissed sponge meets a creamy mascarpone-style filling, finished with a soft veil of cocoa.",

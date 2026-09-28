@@ -33,7 +33,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
 				<div className="flex flex-col items-start justify-center">
 					<Link
 						href="/menu"
-						className="mb-8 inline-flex items-center gap-2 text-sm font-medium text-[#75675f] transition hover:text-[#6f4938]"
+						className="mb-8 inline-flex items-center gap-2 rounded-sm text-sm font-medium text-[#75675f] transition-colors duration-300 ease-out hover:text-[#4c3024] hover:underline hover:decoration-[#9a6b52] hover:underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-2"
 					>
 						<ArrowLeft size={16} />
 						Back to cake menu
@@ -76,7 +76,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
 								onClick={() => setQuantity((current) => Math.max(1, current - 1))}
 								disabled={quantity === 1}
 								aria-label="Decrease quantity"
-								className="flex h-8 w-8 items-center justify-center rounded-full text-[#6f4938] disabled:opacity-40"
+								className="flex h-8 w-8 items-center justify-center rounded-full text-[#6f4938] transition-all duration-200 ease-out hover:scale-105 hover:bg-[#ead6c4] hover:text-[#4c3024] hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-1 disabled:pointer-events-none disabled:opacity-40"
 							>
 								<Minus size={16} />
 							</button>
@@ -87,7 +87,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
 								type="button"
 								onClick={() => setQuantity((current) => current + 1)}
 								aria-label="Increase quantity"
-								className="flex h-8 w-8 items-center justify-center rounded-full text-[#6f4938]"
+								className="flex h-8 w-8 items-center justify-center rounded-full text-[#6f4938] transition-all duration-200 ease-out hover:scale-105 hover:bg-[#ead6c4] hover:text-[#4c3024] hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-1"
 							>
 								<Plus size={16} />
 							</button>
@@ -97,7 +97,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
 							href={whatsappUrl}
 							target="_blank"
 							rel="noopener noreferrer"
-							className="inline-flex min-h-12 items-center gap-2 rounded-full bg-[#6f4938] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#58382c]"
+							className="inline-flex min-h-12 items-center gap-2 rounded-full bg-[#6f4938] px-6 py-3 text-sm font-semibold text-white transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-[1.02] hover:bg-[#4c3024] hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-2"
 						>
 							Order via WhatsApp
 							<ArrowRight size={17} />

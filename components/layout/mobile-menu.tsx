@@ -12,7 +12,7 @@ export function MobileMenu() {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="rounded-full p-2 text-[#4c3024] md:hidden"
+        className="rounded-full p-2 text-[#4c3024] transition-all duration-200 ease-out hover:scale-105 hover:bg-[#ead6c4] hover:text-[#4c3024] hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-2 md:hidden"
         aria-label="Open menu"
       >
         <Menu size={22} />
@@ -26,7 +26,7 @@ export function MobileMenu() {
 
           <button
             onClick={() => setOpen(false)}
-            className="rounded-full p-2"
+            className="rounded-full p-2 transition-all duration-200 ease-out hover:scale-105 hover:bg-[#ead6c4] hover:text-[#4c3024] hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-2"
             aria-label="Close menu"
           >
             <X size={22} />
@@ -37,7 +37,7 @@ export function MobileMenu() {
           <Link
             href="/"
             onClick={() => setOpen(false)}
-            className="text-lg font-medium"
+            className="rounded-sm text-lg font-medium transition-colors duration-300 ease-out hover:text-[#4c3024] hover:underline hover:decoration-[#9a6b52] hover:underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-4"
           >
             Home
           </Link>
@@ -45,7 +45,7 @@ export function MobileMenu() {
           <Link
             href="/menu"
             onClick={() => setOpen(false)}
-            className="text-lg font-medium"
+            className="rounded-sm text-lg font-medium transition-colors duration-300 ease-out hover:text-[#4c3024] hover:underline hover:decoration-[#9a6b52] hover:underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-4"
           >
             Menu
           </Link>
@@ -53,7 +53,7 @@ export function MobileMenu() {
           <a
             href="/#about"
             onClick={() => setOpen(false)}
-            className="text-lg font-medium"
+            className="rounded-sm text-lg font-medium transition-colors duration-300 ease-out hover:text-[#4c3024] hover:underline hover:decoration-[#9a6b52] hover:underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-4"
           >
             About
           </a>

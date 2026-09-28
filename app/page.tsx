@@ -6,6 +6,7 @@ import { Testimonials } from "@/components/home/testimonials";
 import { FAQ } from "@/components/home/faq";
 import { CTA } from "@/components/home/cta";
 import { DonutBoxBuilder } from "@/components/donut-box/donut-box-builder";
+import { LocationSection } from "@/components/home/location-section";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Gallery />
       <Testimonials />
+      <LocationSection />
       <DonutBoxBuilder />
       <FAQ />
       <CTA />

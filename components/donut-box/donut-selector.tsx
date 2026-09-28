@@ -58,7 +58,7 @@ export function DonutSelector({
                 <button
                   onClick={() => onRemove(product.id)}
                   disabled={quantity === 0}
-                  className="flex h-7 w-7 items-center justify-center rounded-full border border-[#d9c8ba] text-sm disabled:opacity-30"
+                  className="flex h-7 w-7 items-center justify-center rounded-full border border-[#d9c8ba] text-sm transition-all duration-200 ease-out hover:scale-105 hover:border-[#9a6b52] hover:bg-[#ead6c4] hover:text-[#4c3024] hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-1 disabled:pointer-events-none disabled:opacity-30"
                 >
                   −
                 </button>
@@ -70,7 +70,7 @@ export function DonutSelector({
                 <button
                   onClick={() => onAdd(product.id)}
                   disabled={selectedCount >= boxSize}
-                  className="flex h-7 w-7 items-center justify-center rounded-full bg-[#6f4938] text-white disabled:opacity-30"
+                  className="flex h-7 w-7 items-center justify-center rounded-full bg-[#6f4938] text-white transition-all duration-200 ease-out hover:scale-105 hover:bg-[#4c3024] hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-1 disabled:pointer-events-none disabled:opacity-30"
                 >
                   <Plus size={14} />
                 </button>

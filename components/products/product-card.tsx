@@ -13,14 +13,14 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <Link
       href={`/products/${product.slug}`}
-      className="group block"
+      className="group block rounded-[2rem] transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/60 focus-visible:ring-offset-4"
     >
       <div className="relative aspect-square overflow-hidden rounded-[2rem] bg-[#f3ebe4]">
         <Image
           src={product.image}
           alt={product.name}
           fill
-          className="object-cover transition duration-500 group-hover:scale-105"
+          className="object-cover transition-transform duration-300 ease-out group-hover:scale-[1.02]"
           sizes="(max-width: 768px) 90vw, 33vw"
         />
 
@@ -30,14 +30,14 @@ export function ProductCard({ product }: ProductCardProps) {
           </div>
         )}
 
-        <div className="absolute bottom-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#4c3024] opacity-0 shadow-sm transition duration-300 group-hover:opacity-100">
+        <div className="absolute bottom-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-[#6f4938] text-white opacity-0 shadow-sm transition-all duration-200 ease-out group-hover:scale-105 group-hover:bg-[#4c3024] group-hover:opacity-100 group-focus-visible:opacity-100">
           <ArrowUpRight size={18} />
         </div>
       </div>
 
       <div className="mt-4 flex items-start justify-between gap-4">
         <div>
-          <h3 className="font-serif text-xl font-bold text-[#30231e]">
+          <h3 className="font-serif text-xl font-bold text-[#30231e] transition-colors duration-200 ease-out group-hover:text-[#4c3024] group-focus-visible:text-[#4c3024]">
             {product.name}
           </h3>
 

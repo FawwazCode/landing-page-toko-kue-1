@@ -6,7 +6,7 @@ export function About() {
       <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-2 lg:items-center lg:px-8">
         <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem]">
           <Image
-            src="/images/gallery/gallery-01.webp"
+            src="/images/gallery/gallery-01.jpeg"
             alt="cake shop"
             fill
             className="object-cover"

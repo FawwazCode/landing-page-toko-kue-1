@@ -45,7 +45,7 @@ export function Hero() {
 
           <div className="relative h-full w-full overflow-hidden rounded-[45%]">
             <Image
-              src="/images/hero/hero-cake.webp"
+              src="/images/hero/hero-cake.jpeg"
               alt="Freshly baked cakes from Toko Kue"
               fill
               priority

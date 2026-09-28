@@ -27,7 +27,7 @@ export function CustomerForm({
             })
           }
           placeholder="Nama kamu"
-          className="w-full rounded-2xl border border-[#dfd2c9] bg-white px-4 py-3 text-sm outline-none transition focus:border-[#6f4938]"
+          className="w-full rounded-2xl border border-[#dfd2c9] bg-white px-4 py-3 text-sm outline-none transition-colors duration-200 ease-out hover:border-[#b99a84] focus:border-[#6f4938] focus-visible:ring-2 focus-visible:ring-[#9a6b52]/40"
         />
       </div>
 
@@ -45,10 +45,10 @@ export function CustomerForm({
                 orderType: "pickup",
               })
             }
-            className={`rounded-2xl border px-4 py-3 text-sm font-semibold ${
+            className={`rounded-2xl border px-4 py-3 text-sm font-semibold transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-2 ${
               value.orderType === "pickup"
-                ? "border-[#6f4938] bg-[#f3e4d5]"
-                : "border-[#dfd2c9] bg-white"
+                ? "border-[#6f4938] bg-[#f3e4d5] hover:border-[#4c3024] hover:bg-[#ead6c4]"
+                : "border-[#dfd2c9] bg-white hover:border-[#9a6b52] hover:bg-[#f1e7df] hover:text-[#6f4938]"
             }`}
           >
             Pickup
@@ -62,10 +62,10 @@ export function CustomerForm({
                 orderType: "delivery",
               })
             }
-            className={`rounded-2xl border px-4 py-3 text-sm font-semibold ${
+            className={`rounded-2xl border px-4 py-3 text-sm font-semibold transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#9a6b52]/50 focus-visible:ring-offset-2 ${
               value.orderType === "delivery"
-                ? "border-[#6f4938] bg-[#f3e4d5]"
-                : "border-[#dfd2c9] bg-white"
+                ? "border-[#6f4938] bg-[#f3e4d5] hover:border-[#4c3024] hover:bg-[#ead6c4]"
+                : "border-[#dfd2c9] bg-white hover:border-[#9a6b52] hover:bg-[#f1e7df] hover:text-[#6f4938]"
             }`}
           >
             Delivery
@@ -88,7 +88,7 @@ export function CustomerForm({
           }
           placeholder="Contoh: Mohon dikemas dengan hati-hati..."
           rows={4}
-          className="w-full resize-none rounded-2xl border border-[#dfd2c9] bg-white px-4 py-3 text-sm outline-none transition focus:border-[#6f4938]"
+          className="w-full resize-none rounded-2xl border border-[#dfd2c9] bg-white px-4 py-3 text-sm outline-none transition-colors duration-200 ease-out hover:border-[#b99a84] focus:border-[#6f4938] focus-visible:ring-2 focus-visible:ring-[#9a6b52]/40"
         />
       </div>
     </div>
